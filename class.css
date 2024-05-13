@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #444;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-image: linear-gradient(90deg, rgba(255, 0, 0, 0.356), rgba(0, 0, 255, 0.39), rgba(0, 0, 0, 0.603));
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+}
+
+.canvas {
+  width: 30%;
+}
+
+.wrapper_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.accordion {
+  width: 30%;
+  overflow: hidden;
+}
+
+.wrapper_tab-content {
+  position: relative;
+}
+
+.tab-content {
+  position: absolute;
+  padding: 1.7em 0;
+  visibility: hidden;
+  height: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(red, black);
+  border-radius: 10px;
+}
+
+.pic {
+  width: 90px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.navbar {
+  backdrop-filter: blur(20px);
+  margin: 20px;
+  background: rgba(255, 24, 24, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  overflow: auto;
+}
+
+.img {
+  width: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.tab-content h1 {
+  font-size: 1.12em;
+  margin-bottom: 0.5em;
+}
+
+.inp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-visible {
+  position: static;
+  visibility: inherit;
+  visibility: inherit;
+}
+
+.link-one {
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-left: 10px;
+}
+
+li {
+  margin: 10px;
+}/*# sourceMappingURL=class.css.map */
